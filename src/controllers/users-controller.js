@@ -1,7 +1,7 @@
-import { User } from 'models'
+import { User } from '../models'
 import bcrypt from 'bcryptjs'
 import { v4 as uuidv4 } from 'uuid'
-import { encryptPassword, generateJWTToken } from 'helpers'
+import { encryptPassword, generateJWTToken } from '../helpers'
 
 const UserController = {
   login: async ctx => {

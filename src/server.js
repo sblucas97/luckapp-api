@@ -1,5 +1,5 @@
 import Koa from 'koa'
-import router from 'routes'
+import router from './routes'
 import KoaBody from 'koa-body'
 import Logger from 'koa-logger'
 

@@ -1,5 +1,5 @@
 import path from 'path'
-import { DATABASE, NODE_ENV } from 'config'
+import { DATABASE, NODE_ENV } from '../config'
 
 export const development = {
   client: 'pg',

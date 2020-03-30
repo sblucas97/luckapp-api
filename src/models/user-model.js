@@ -1,6 +1,6 @@
 import Knex from 'knex'
-import knexConfig from 'database/knexfile'
-import { NODE_ENV } from 'config'
+import knexConfig from '../database/knexfile'
+import { NODE_ENV } from '../config'
 
 const knex = Knex(knexConfig[NODE_ENV])
 
