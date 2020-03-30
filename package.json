@@ -4,6 +4,9 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
+    "heroku:migrate": "heroku run yarn db:migrate",
+    "heroku:seed": "heroku run yarn db:seed",
+    "heroku:rollback": "heroku run yarn db:rollback",
     "db:migrate": "yarn knex migrate:latest",
     "db:seed": "yarn knex seed:run",
     "db:rollback": "yarn knex migrate:rollback",
